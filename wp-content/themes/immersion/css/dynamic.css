@@ -1,0 +1,173 @@
+
+
+	h1{
+
+		font-family: "Open Sans";
+		
+		font-size:49px;
+
+				font-size:4.0833333333333rem;
+		
+		font-weight:300;
+		text-transform:none;
+		line-height:1.15em;
+		letter-spacing:-0.025em;
+		
+		margin-bottom:1.15em;
+
+	}
+
+
+	h2{
+
+		font-family: "Open Sans";
+		
+		font-size:38px;
+
+				font-size:3.1666666666667rem;
+		
+		font-weight:300;
+		text-transform:none;
+		line-height:1.15em;
+		letter-spacing:-0.025em;
+		
+		margin-bottom:1.15em;
+
+	}
+
+
+	h3{
+
+		font-family: "Open Sans";
+		
+		font-size:30px;
+
+				font-size:2.5rem;
+		
+		font-weight:300;
+		text-transform:none;
+		line-height:1.26em;
+		letter-spacing:-0.025em;
+		
+		margin-bottom:1.26em;
+
+	}
+
+
+	h4{
+
+		font-family: "Open Sans";
+		
+		font-size:16px;
+
+				font-size:1.3333333333333rem;
+		
+		font-weight:600;
+		text-transform:none;
+		line-height:1.45em;
+		letter-spacing:0em;
+		
+		margin-bottom:1.45em;
+
+	}
+
+
+	h5{
+
+		font-family: "Open Sans";
+		
+		font-size:11px;
+
+		
+		font-weight:700;
+		text-transform:uppercase;
+		line-height:1.45em;
+		letter-spacing:0.075em;
+		
+		margin-bottom:1.45em;
+
+	}
+
+
+	h6{
+
+		font-family: "Open Sans";
+		
+		font-size:11px;
+
+		
+		font-weight:600;
+		text-transform:none;
+		line-height:1.45em;
+		letter-spacing:0.05em;
+		
+		margin-bottom:1.45em;
+
+	}
+
+
+
+#header #logo{
+
+left:0px;
+top:0px;
+
+}
+
+a:hover, a:focus { color: #0073fe; }
+
+#header #nav > li > a:hover{
+
+color: #0073fe;
+
+}
+
+#nav li ul.sub-menu > li a:hover{
+
+color: #0073fe;
+
+
+}
+
+.pagination a.current{
+
+color:#0073fe;
+
+}
+
+.meta_wrap li.entry_comments a:hover, .meta_wrap li.entry_categories a:hover {
+
+color: #0073fe;
+
+}
+
+#bottom_wrap a:hover{
+
+color:#0073fe;
+
+}
+
+aside a:hover{
+
+color: #0073fe !important;
+
+}
+
+#bottom_wrap ul.posts li .post_title:hover{
+
+color: #0073fe;
+
+}
+
+@media only screen and (max-width: 767px) {
+
+html{
+	font-size: 12px;
+}
+
+
+}
+
+
+
+

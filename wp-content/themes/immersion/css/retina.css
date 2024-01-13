@@ -1,0 +1,99 @@
+@media (min--moz-device-pixel-ratio: 1.5),
+       (-o-min-device-pixel-ratio: 3/2),
+       (-webkit-min-device-pixel-ratio: 1.5),
+       (min-device-pixel-ratio: 1.5),
+       (min-resolution: 144dpi),
+       (min-resolution: 1.5dppx) {
+
+
+       	/* Retina rules! */
+   	#left_arrow {
+		background-image            : url(./../img/left-arrow@2x.png);
+       	background-size             : 8px 14px;
+       }
+
+	#right_arrow{
+		background-image : url(./../img/right-arrow@2x.png);
+		background-size  : 8px 14px;
+	}
+
+	blockquote { 
+		background-image : url(./../img/blockquote@2x.png);
+		background-size  : 21px 12px;
+	}
+
+	span.email-icon{
+		background      : url(./../img/email@2x.png) no-repeat center center;
+		background-size : 13px 9px;
+	}
+
+	span.pin-icon{
+		background      : url(./../img/pin@2x.png) no-repeat center center;
+		background-size : 11px 16px;
+	}
+
+	span.telephone-icon{
+		background      : url(./../img/telephone@2x.png) no-repeat center center;
+		background-size : 12px 16px;
+	}
+
+	.preloader, #supersized-loader, #supersized li.image-loading, #cboxContent { 
+		background-image : url(./../img/loading@2x.gif);
+		background-size  : 18px 18px;
+	}
+
+	.flex-direction-nav .prev,
+	.flex-direction-nav .next,
+	.flex-control-nav li a,
+	.flex-control-nav li a.active,
+	#cboxPrevious,
+	#cboxNext{
+		background-image : url(./../img/slideshow@2x.png);
+		background-size  : 35px 121px;
+	}
+
+
+	.tweet_list .tweet_time, 
+	#recentcomments li{
+		background-image : url(./../img/twitter@2x.png);
+		background-size  : 11px 6px;
+	}
+
+	.blog-posts figcaption,
+	figcaption.overlay,
+	ul.gallery-list li figcaption{
+		background-image : url(./../img/zoom@2x.png);
+		background-size  : 36px 36px;
+	}
+
+
+	div.ps-toolbar-previous{
+		background      : url(./../img/slideshow@2x.png) no-repeat 0 -48px;
+		background-size : 35px 121px;
+	}
+
+	div.ps-toolbar-next{
+		background      : url(./../img/slideshow@2x.png) no-repeat 0 -87px;
+		background-size : 35px 121px;
+	}
+
+	div.ps-toolbar-close {
+		background      : url(./../img/video-controls@2x.png) no-repeat 0 -133px;
+		background-size : 58px 466px;
+	}
+
+	#supersized-load{
+		background: #ecf0f1 url(./../img/preload@2x.gif) no-repeat center center;
+		background-size : 35px 35px;
+
+	}
+
+ 
+}
+
+
+
+
+
+	
+	

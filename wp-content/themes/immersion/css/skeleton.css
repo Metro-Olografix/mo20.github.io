@@ -1,0 +1,200 @@
+/*
+* Skeleton V1.1
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 8/17/2011
+*/
+
+
+/* Table of Contents
+==================================================
+    #Base 960 Grid
+    #Tablet (Portrait)
+    #Mobile (Portrait)
+    #Mobile (Landscape)
+    #Clearing */
+
+
+/* #Base 1200 Grid
+================================================== */
+
+    .container { position: relative; width: 1110px; margin: 0 auto; padding: 0;}
+    .columns { float: left; display: inline; margin-right: 3%; }
+
+    .row { margin-bottom: 30px; }
+    .row20 { margin-bottom: 20px; }
+    .row30 { margin-bottom: 30px; }
+    .row40 { margin-bottom: 40px; }
+    .row50 { margin-bottom: 50px; }
+    .row60 { margin-bottom: 60px; }
+
+
+
+    .uprow { margin-top: 60px; }
+
+    /* Nested Column Classes */
+    .columns.last, .columns.last               { margin-right: 0; }
+
+      /* Base Grid */
+    .container .one.columns { width: 3.4375%; }
+    .container .two.columns { width: 9.875%; }
+    .container .three.columns { width: 16.3125%; }
+    .container .four.columns { width: 22.75%; }
+    .container .five.columns { width: 29.1875%; }
+    .container .six.columns { width: 35.625%; }
+    .container .seven.columns { width: 42.0625%; }
+    .container .eight.columns { width: 48.5%; }
+    .container .nine.columns { width: 54.9375%; }
+    .container .ten.columns { width: 61.375%; }
+    .container .eleven.columns { width: 67.8125%; }
+    .container .twelve.columns { width: 74.25%; }
+    .container .thirteen.columns { width: 80.6875%; }
+    .container .fourteen.columns { width: 87.125%; }
+    .container .fifteen.columns { width: 93.5625%; }
+    .container .sixteen.columns { width: 100%; }
+
+    .container .one-third.columns { width: 31.33333333%; }
+    .container .two-thirds.columns { width: 65.66666667%; }
+
+
+
+
+
+/* #Base 960 Grid
+================================================== */
+
+@media only screen and (min-width: 960px) and (max-width: 1200px) {
+
+    .container { width: 90%;  }
+
+ 
+}
+
+/* #Tablet (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 768px */
+
+    @media only screen and (min-width: 768px) and (max-width: 959px) {
+
+        .container                                  { width:90%;}
+
+    }
+
+
+/*  #Mobile (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 320px */
+
+    @media only screen and (max-width: 767px) {
+        .container { width: 84%; }
+        .container .columns,
+        .container .columns { margin: 0; margin-bottom:20px; }
+
+        .container .one.columns,
+        .container .one.columns,
+        .container .two.columns,
+        .container .three.columns,
+        .container .four.columns,
+        .container .five.columns,
+        .container .six.columns,
+        .container .seven.columns,
+        .container .eight.columns,
+        .container .nine.columns,
+        .container .ten.columns,
+        .container .eleven.columns,
+        .container .twelve.columns,
+        .container .thirteen.columns,
+        .container .fourteen.columns,
+        .container .fifteen.columns,
+        .container .sixteen.columns,
+        .container .one-third.columns,
+        .container .two-thirds.columns  { width: 100%; }
+
+
+        .row { margin-bottom: 2.5rem; }
+        .row20 { margin-bottom: 1.66666666666666rem; }
+        .row30 { margin-bottom: 2.5rem; }
+        .row40 { margin-bottom: 3.333333333333333rem; }
+        .row50 { margin-bottom: 4.166666666666667rem; }
+        .row60 { margin-bottom: 5rem; }
+
+
+    }
+
+
+/* #Mobile (Landscape)
+================================================== */
+
+    /* Note: Design for a width of 480px */
+
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+        .container {  }
+        .container .columns,
+        .container .columns { }
+
+        .container .one.columns,
+        .container .one.columns,
+        .container .two.columns,
+        .container .three.columns,
+        .container .four.columns,
+        .container .five.columns,
+        .container .six.columns,
+        .container .seven.columns,
+        .container .eight.columns,
+        .container .nine.columns,
+        .container .ten.columns,
+        .container .eleven.columns,
+        .container .twelve.columns,
+        .container .thirteen.columns,
+        .container .fourteen.columns,
+        .container .fifteen.columns,
+        .container .sixteen.columns,
+        .container .one-third.columns,
+        .container .two-thirds.columns { width: 100%; }
+    }
+
+
+/* #Clearing
+================================================== */
+
+    /* Self Clearing Goodness */
+    .container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+
+    /* Use clearfix class on parent to clear nested columns,
+    or wrap each row of columns in a <div class="row"> */
+    .clearfix:before,
+    .clearfix:after,
+    .row:before,
+    .row:after {
+        content    : '\0020';
+
+        display    : block;
+        visibility : hidden;
+
+        overflow   : hidden;
+        height     : 0; 
+        width      : 0;
+    }
+    .row:after,
+    .clearfix:after {
+        clear : both; 
+    }
+    .row,
+    .clearfix {
+        zoom : 1; 
+    }
+
+    /* You can also use a <br class="clear" /> to clear columns */
+    .clear {
+        display    : block;
+        clear      : both;
+        visibility : hidden;
+
+        overflow   : hidden;
+        height     : 0;
+        width      : 0;
+    }

@@ -1,0 +1,1 @@
+!function(a){a.fn.flexVerticalCenter=function(b){return this.each(function(){var c=a(this),d=b||"margin-top",e=function(){c.css(d,(c.parent().height()-c.height())/2)};e(),a(window).resize(e),c.find("img").load(e)})}}(jQuery);
