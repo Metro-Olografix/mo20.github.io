@@ -1,8 +1,8 @@
 /**
  * jQuery gMap - Google Maps API V3
  *
- * @license MIT License; http://www.opensource.org/licenses/mit-license.php
- * @url   http://github.com/marioestrada/jQuery-gMap
+ * @license MIT License; https://www.opensource.org/licenses/mit-license.php
+ * @url   https://github.com/marioestrada/jQuery-gMap
  * @author  Mario Estrada <me@mario.ec> based on original plugin by Cedric Kastner <cedric@nur-text.de>
  * @version 2.1.5
  */
@@ -267,8 +267,8 @@
     html_prepend: '<div class="gmap_marker">',
     html_append: '</div>',
     icon: {
-      image: "http://www.google.com/mapfiles/marker.png",
-      shadow: "http://www.google.com/mapfiles/shadow50.png",
+      image: "https://www.google.com/mapfiles/marker.png",
+      shadow: "https://www.google.com/mapfiles/shadow50.png",
       iconsize: [20, 34],
       shadowsize: [37, 34],
       iconanchor: [9, 34],

@@ -97,7 +97,7 @@ jQuery(document).ready(function($) {
 		var count = $this.attr('data-count');
 		var id = $this.attr('data-id');
 
-		$.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?id=" + id + "&lang=en-us&format=json&jsoncallback=?", function(data) {
+		$.getJSON("https://api.flickr.com/services/feeds/photos_public.gne?id=" + id + "&lang=en-us&format=json&jsoncallback=?", function(data) {
 
 			$.each(data.items, function(i, item) {
 
